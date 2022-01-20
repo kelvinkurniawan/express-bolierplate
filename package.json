@@ -1,0 +1,36 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "Rest API Server with Express JS, Sequelize, MySQL, Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinkurniawan/express-bolierplate.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "rest"
+  ],
+  "author": "Kelvin Kurniawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvinkurniawan/express-bolierplate/issues"
+  },
+  "homepage": "https://github.com/kelvinkurniawan/express-bolierplate#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/register": "^7.16.9",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "sequelize": "^6.13.0"
+  }
+}
